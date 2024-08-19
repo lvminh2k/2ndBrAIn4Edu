@@ -14,6 +14,8 @@ lorax_client = pb.deployments.client("solar-1-mini-chat-240612")
 
 if course == 'Database System':
     adapter_id = 'news-database_system-model/3'
+elif course == 'Jeju Island':
+    adapter_id = 'news-jeju-model/2'
 
 
 def  get_response(user_input, chat_history):
